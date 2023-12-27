@@ -1,0 +1,88 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+}
+
+ul {
+  line-height: 1.6em;
+  list-style: none;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: var(--Primery-text-color);
+}
+.container {
+  max-width: 1280px;
+  overflow: hidden;
+  margin: 20px auto;
+  padding: 0 30px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  width: 100px;
+  height: 100px;
+  border: 1px solid lightseagreen;
+  display: inline-block;
+}
+.center {
+  text-align: center;
+}
+
+/* NavBar */
+.nav-container {
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+.inner-navContainer {
+  justify-content: space-between;
+}
+.inner-navContainer:first-child {
+  margin-inline: 20px;
+  font-weight: bold;
+}
+
+.nav-ul {
+  gap: 30px;
+}
+
+/* Header section */
+.head-container {
+  margin: 10px 20px 100px;
+}
+
+/* Main section */
+span {
+  justify-self: center;
+}
+#white {
+  background: white;
+}
+#black {
+  background: black;
+}
+#lightGrey {
+  background: #949398ff;
+}
+#green {
+  background: #b4cdaf;
+}
