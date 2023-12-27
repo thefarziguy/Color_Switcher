@@ -86,3 +86,18 @@ span {
 #green {
   background: #b4cdaf;
 }
+
+/* Media queries */
+@media screen and (max-width: 550px) {
+  .center {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .buttons {
+    width: 60px;
+    height: 60px;
+  }
+}
